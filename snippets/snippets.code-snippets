@@ -1,0 +1,120 @@
+{
+    "Import": {
+        "prefix": "import",
+        "body": "import '${1}';",
+        "description": "Import A Library"
+    },
+    "Import IO": {
+        "prefix": "imp-io",
+        "body": "import 'dart:io';",
+        "description": "Import dart:io"
+    },
+    "Import Async": {
+        "prefix":  "imp-async",
+        "body": "import 'dart:async';",
+        "description": "Import dart:async"
+    },
+    "Import CLI": {
+        "prefix": "imp-cli",
+        "body": "import 'dart:cli;';",
+        "description": "Import dart:cli"
+    },
+    "Import Collection": {
+        "prefix": "imp-collection",
+        "body": "import 'dart:collection';",
+        "description": "Import dart:collection"
+    },
+    "Import Covert": {
+        "prefix":  "imp-covert",
+        "body": "import 'dart:covert';",
+        "description": "Import dart:covert"
+    },
+    "Import Developer": {
+        "prefix": "imp-developer",
+        "body": "import 'dart:developer';",
+        "description": "Import dart:developer"
+    },
+    "Import FFI": {
+        "prefix": "imp-ffi",
+        "body": "import 'dart:ffi';",
+        "description": "Import dart:ffi"
+    },
+    "Import HTML": {
+        "prefix":  "imp-html",
+        "body": "import 'dart:html';",
+        "description": "Import dart:html"
+    },
+    "Import Indexed DB": {
+        "prefix": "imp-indexed_db",
+        "body": "import 'dart:indexed_db';",
+        "description": "Import dart:indexed_db"
+    },
+    "Import Isolate": {
+        "prefix": "imp-isolate",
+        "body": "import 'dart:isolate';",
+        "description": "Import dart:isolate"
+    },
+    "Import JS": {
+        "prefix":  "imp-js",
+        "body": "import 'dart:js';",
+        "description": "Import dart:js"
+    },
+    "Import JS Util": {
+        "prefix": "imp-js_util",
+        "body": "import 'dart:js_util';",
+        "description": "Import dart:js_util"
+    },
+    "Import Math": {
+        "prefix": "imp-math",
+        "body": "import 'dart:math';",
+        "description": "Import dart:math"
+    },
+    "Import Mirrors": {
+        "prefix":  "imp-mirrors",
+        "body": "import 'dart:mirrors';",
+        "description": "Import dart:mirrors"
+    },
+    "Import SVG": {
+        "prefix": "imp-svg",
+        "body": "import 'dart:svg';",
+        "description": "Import dart:svg"
+    },
+    "Import Type Data": {
+        "prefix": "imp-type_data",
+        "body": "import 'dart:type_data';",
+        "description": "Import dart:type_data"
+    },
+    "Import Web Audio": {
+        "prefix": "imp-web_audio",
+        "body": "import 'dart:web_audio';",
+        "description": "Import dart:web_audio"
+    },
+    "Import Web GL": {
+        "prefix":  "imp-web_gl",
+        "body": "import 'dart:web_gl';",
+        "description": "Import dart:web_gl"
+    },
+    "Import Core": {
+        "prefix": "imp-core",
+        "body": "import 'dart:core';",
+        "description": "Import dart:core"
+    },
+    "If" : {
+        "prefix": "if",
+        "body": [
+            "if(${1:condition}){",
+            "\t${2}",
+            "}"
+        ]
+    },
+    "If Else" : {
+        "prefix": "if else",
+        "body": [
+            "if(${1:condition}){",
+            "\t${2}",
+            "} else {",
+            "\t${3}",
+            "}"
+        ]
+    }
+}
