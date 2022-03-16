@@ -102,7 +102,23 @@
     "If" : {
         "prefix": "if",
         "body": [
-            "if(${1:condition}){",
+            "if (${1:condition}){",
+            "\t${2}",
+            "}"
+        ]
+    },
+    "Else" : {
+        "prefix": "else",
+        "body": [
+            "else {",
+            "\t${2}",
+            "}"
+        ]
+    },
+    "Else If" :{
+        "prefix": "else if",
+        "body": [
+            "else if (${1:condition}){",
             "\t${2}",
             "}"
         ]
@@ -110,11 +126,78 @@
     "If Else" : {
         "prefix": "if else",
         "body": [
-            "if(${1:condition}){",
+            "if (${1:condition}){",
             "\t${2}",
             "} else {",
             "\t${3}",
             "}"
         ]
-    }
+    },
+    "If Else If" : {
+        "prefix": "if else if",
+        "body": [
+            "if (${1:condition}){",
+            "\t${2}",
+            "} else if(${3:condition2}) {",
+            "\t${4}",
+            "}"
+        ]
+    },
+    "Nested if" : {
+        "prefix": "if nested",
+        "body": [
+            "if (${1:condition}){",
+            "\tif (${2:condition2}){",
+            "\t\t",
+            "\t}",
+            "}"
+        ]
+    },
+    "Switch Case" : {
+        "prefix": "switch case",
+        "body": [
+            "switch(${1:variable}) {",
+            "\tcase (${2:expr}): {",
+            "\t\t${3}",
+            "\t}",
+            "\tbreak;",
+            "${0}",
+            "\tdefault: {",
+            "\t\t${4}",
+            "\t}",
+            "}"
+        ]
+    },
+    "For Increment" : {
+        "prefix": "for inc",
+        "body": [
+            "for(${1:var i = }; ${2:condition}; ${3:i}++){",
+            "\t${4}",
+            "}"
+        ]
+    },
+    "For Decrement" : {
+        "prefix": "for dec",
+        "body": [
+            "for(${1:var i = }; ${2:condition}; ${3:i}--){",
+            "\t${4}",
+            "}"
+        ]
+    },
+    "While" : {
+        "prefix": "while",
+        "body": [
+            "while (${1:condition}){",
+            "\t${2}",
+            "}"
+        ]
+    },
+    "Do While" : {
+        "prefix": "do while",
+        "body": [
+            "do {",
+            "\t",
+            "} while (${1:condition})"
+        ]
+    },
 }
