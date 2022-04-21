@@ -1,65 +1,43 @@
-# dart-code-snippet README
+# Dart Code Atomic Snippet
 
-This is the README for your extension "dart-code-snippet". After writing up a brief description, we recommend including the following sections.
+Dart Code Atomic Snippet provides useful snippet for generating frequently syntax pattern
 
-## Features
+## Snippets
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+| Snippet        | Description                           |
+| -------------- | ------------------------------------- |
+| import         | Template for importing file / library |
+| imp-io         | Import library dart:io                | 
+| imp-async      | Import library dart:async             |
+| imp-cli        | Import library dart:cli               |
+| imp-collection | Import library dart:collection        |
+| imp-covert     | Import library dart:covert            |
+| imp-developer  | Import library dart:developer         |
+| imp-ffi        | Import library dart:ffi               |
+| imp-html       | Import library dart:html              |
+| imp-indexed_db | Import library dart:indexed_db        |
+| imp-isolate    | Import library dart:isolate           |
+| imp-js         | Import library dart:js                |
+| imp-js_util    | Import library dart:js_util           |
+| imp-math       | Import library dart:math              |
+| imp-mirrors    | Import library dart:mirrors           |
+| imp-svg        | Import library dart:svg               |
+| imp-type_data  | Import library dart:type_data         |
+| imp-web_audio  | Import library dart:web_audio         |
+| imp-web_gl     | Import library dart:web_gl            |
+| imp-core       | Import library dart:core              |
+| if             | One block if                          |
+| else           | One block else                        |
+| else if        | One block else if                     |
+| if else        | One block if else                     |
+| if else if     | One block with if and else if         |
+| if nested      | One block with nested if              |
+| switch case    | One block of switch case              |
+| for inc        | One block of increment for            |
+| for dec        | One block of decrement for            |
+| while          | One block of while                    |
+| do while       | One block of do while                 |
+| async fun      | Create void async function            |
+| async fun ret  | Create async function with return     |
 
 **Enjoy!**

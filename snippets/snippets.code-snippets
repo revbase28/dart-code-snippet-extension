@@ -200,4 +200,20 @@
             "} while (${1:condition})"
         ]
     },
+    "Async Void" : {
+        "prefix": "async fun",
+        "body": [
+            "void ${1} async{",
+            "\t",
+            "}"
+        ]
+    },
+    "Async Return" : {
+        "prefix": "async fun ret",
+        "body": [
+            "Future<${1}> ${2} async{",
+            "\t return ${3}",
+            "}"
+        ]
+    },
 }

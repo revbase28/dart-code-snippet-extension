@@ -1,6 +1,6 @@
 {
-    "name": "dart-code-snippet",
-    "displayName": "dart-code-snippet",
+    "name": "dart-code-atomic-snippet",
+    "displayName": "dart-code-atomic-snippet",
     "description": "Simple code snippet for dart",
     "version": "1.0.0",
     "engines": {
